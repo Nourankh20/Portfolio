@@ -173,6 +173,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 .nav__logo{
@@ -191,6 +192,8 @@ img {
   bottom: 1rem;
   background-color: hsl(var(--second-hue), 32%, 16%, .8);
   width: 90%;
+  /* justify-self: center; */
+  /* margin: 0; */
   border-radius: 4rem;
   padding: 1rem 2.25rem;
   backdrop-filter: blur(10px);
@@ -228,11 +231,13 @@ img {
 .home__container{
   position: relative;
   row-gap: 4.5rem;
-  padding-top: 2rem;
+  padding-top: 2rem; 
+  margin: auto;
 }
 
 .home__data{
   text-align: center;
+  
 }
 
 .home__greeting,
@@ -369,6 +374,8 @@ img {
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 2.5rem;
+  margin: auto;
+  padding: 2rem;
 }
 
 .about__img{
@@ -415,6 +422,8 @@ img {
 .skills__container{
   row-gap: 2rem;
   padding-top: 1rem;
+  margin: auto;
+  padding: 2rem;
 }
 
 .skills__content{
@@ -469,6 +478,9 @@ img {
   grid-template-columns: repeat(2,1fr);
   gap: 1.5rem;
   padding-top: 1rem;
+  margin: auto;
+  padding: 2rem;
+
 }
 
 .services__card{
@@ -589,6 +601,8 @@ img {
 .contact__container{
   row-gap: 3rem;
   padding-bottom: 3rem;
+  margin: auto;
+  padding: 2rem;
 }
 
 .contact__title{
