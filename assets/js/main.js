@@ -64,4 +64,14 @@ if (selectedTheme){
 
   })
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset:true
+})
 
+sr.reveal('.home__data')
+sr.reveal('.home__handle', {delay: 700})
+sr.reveal(`.home__social , .home__scroll`, {delay: 700, origin:'buttom'})
