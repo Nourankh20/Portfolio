@@ -928,4 +928,11 @@ body.light-theme{
     margin-top: 2.5rem;
   }
 
+  .nav__menu{
+    width: 90%;
+    left: 0;
+    right:  0;
+    margin: 0 auto;
+  }
+
 }
